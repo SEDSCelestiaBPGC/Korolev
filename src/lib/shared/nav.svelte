@@ -16,8 +16,10 @@
 
 <details id="nav" class="po-stx z-5" on:click={refreshHighlighted}>
   <summary class="po-rel" style="z-index:9999" />
+  <div class='bg blur w-100 h-100 po-fix'>
+  </div>
   <div
-    class="ul blur w-100 h-100 tx-c po-fix"
+    class="ul w-100 tx-c po-fix"
     onclick="this.parentElement.removeAttribute('open')"
   >
     {#each navs as pj, i}
@@ -38,7 +40,7 @@
     font-size: 3em;
     list-style: none;
     padding-left: 1rem;
-
+    width: 5%;
     &::-webkit-details-marker {
       display: none;
     }
@@ -49,14 +51,20 @@
       display: inline-block;
       content: " ";
       background-image: url("/assets/svgs/bars.svg");
-      background-size: 28px 28px;
-      height: 28px;
-      width: 28px;
+      background-size: 38px 38px;
+      height: 38px;
+      width: 38px;
     }
   }
   details[open] > summary::before {
     background-image: url("/assets/svgs/times.svg");
   }
+
+  .bg{
+      top: 0;
+      z-index: -2; 
+  }
+
   .ul {
     top: -1em;
     left: 0;
@@ -65,6 +73,9 @@
     color: #fff;
     animation: enter forwards 0.5s ease;
     padding: 10% 0;
+    max-height: 80%; 
+    overflow: auto;
+    scrollbar-width: 0;
     .li {
       text-transform: capitalize;
       display: block;

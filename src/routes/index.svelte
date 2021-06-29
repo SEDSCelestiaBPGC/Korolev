@@ -45,9 +45,9 @@
 	</div>
 	<section class="adaptive">
 		<article class="flex jtx-ar">
-			<button class="btn-std">Projects</button>
-			<button class="btn-std">
-				<a href="http://blog.sedscelestia.org">Blog</a>
+			<button class="btn-std" onclick="window.location.href='/projects';">Projects</button>
+			<button class="btn-std" onclick="window.location.href='http://blog.sedscelestia.org';">
+				Blog
 			</button>
 		</article>
 		<div id="rocket" style="min-height:100px;">
