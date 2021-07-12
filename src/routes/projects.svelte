@@ -62,7 +62,7 @@
             bind:value={filter}
             ht="30px"
           />
-           {#each data.past.filter((e) => e.name.toLowerCase().includes(filter.toLocaleLowerCase()) || e.desc.toLowerCase().includes(filter.toLocaleLowerCase())) as pj, i}
+          {#each data.past.filter( (e) => JSON.stringify(e).toLowerCase().includes(filter.toLowerCase()) ) as pj}
             <element class="flex m-10 p-10">
               <img
                 class="rx-50 p-5"
