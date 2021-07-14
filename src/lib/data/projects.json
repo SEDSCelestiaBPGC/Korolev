@@ -83,7 +83,7 @@
             "more": null
         },
         {
-            "year": 2017,
+            "year": "2017",
             "under": "Venugopalan Iyengar",
             "name": "Tesla Coil",
             "desc": "The name speaks for itself",
@@ -123,7 +123,7 @@
             "more": null
         },
         {
-            "year": 2018,
+            "year": "2018",
             "under": "Venugopalan Iyengar",
             "name": "Sonoluminescence",
             "desc": "Create a sonoluminescent bubble and take temperature and spectral measurements of the light emitted",
@@ -131,7 +131,7 @@
             "more": ""
         },
         {
-            "year": 2017,
+            "year": "2017",
             "under": "Venugopalan Iyengar",
             "name": "Barn Door Tracker",
             "desc": "Take exposure images of night’s sky using automated DSLR mount",
@@ -139,7 +139,7 @@
             "more": ""
         },
         {
-            "year": 2017,
+            "year": "2017",
             "under": "Venugopalan Iyengar",
             "name": "N-body simulation",
             "desc": "It aimed to simulate the gravitational interaction of a swarm of bodies and study the clustering and dynamics of the structures formed",
@@ -147,7 +147,7 @@
             "more": ""
         },
         {
-            "year": 2018,
+            "year": "2018",
             "under": "Venugopalan Iyengar",
             "name": "Schlieren Photography",
             "desc": "To Visualize pressure, temperature and composition gradients in fluid flow and observe the complex fractal like structures of turbulence",
@@ -155,7 +155,7 @@
             "more": ""
         },
         {
-            "year": 2018,
+            "year": "2018",
             "under": "Venugopalan Iyengar",
             "name": "Reproduction of particle interference with walking droplets",
             "desc": "It aimed to recreate a quantum phenomena like interference with walking droplets on a vibrating fluid bed",
@@ -163,7 +163,7 @@
             "more": ""
         },
         {
-            "year": 2018,
+            "year": "2018",
             "under": "Venugopalan Iyengar",
             "name": "Galaxy Classifier Neural Net",
             "desc": "It aimed to build and train a convolutional neural network that will classify galaxies using their images",
@@ -171,7 +171,7 @@
             "more": ""
         },
         {
-            "year": 2018,
+            "year": "2018",
             "under": "Venugopalan Iyengar",
             "name": "Michelson Interferometers",
             "desc": "Build a Michelson interferometer without any expensive equipment and to explore the applications of interferometry in seismology and acoustics",
