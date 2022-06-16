@@ -26,6 +26,8 @@ jobs:
           node-version: 14.x
 
       - run: npm install -g pnpm gh-pages
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm build
+#       - run: pnpm install --frozen-lockfile
+#       - run: pnpm build
+      - run: npm install
+      - run: npm run build
       - run: npx gh-pages -d build -t true
